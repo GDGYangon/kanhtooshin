@@ -9,3 +9,4 @@ var attendants = [
 ];
 
 var TOTAL_WINNERS = 10;
+var PLAY_TIME=500;
