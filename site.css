@@ -78,17 +78,26 @@ body {
   }
 }
 
-.jSlots-wrapper {
-    overflow: hidden;
-    height: 20px;
-    display: inline-block; /* to size correctly, can use float too, or width*/
-    border: 1px solid #999;
-}
-
 .slot {
     float: left;
 }
 
 .container {
     width: 640px;
+}
+
+.slot-box .jSlots-wrapper {
+    overflow: hidden;
+    height: 50px;
+    display: inline-block; /* to size correctly, can use float too, or width*/
+    border: 1px solid #CCC;
+}
+.slot-box .slot li {
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #E9573F;
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
 }

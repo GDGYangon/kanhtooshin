@@ -11,7 +11,7 @@ function main () {
 
     $('.slot').empty();
     for (var i = 0; i < attendants.length; i++) {
-	$('.slot').append('<li>' + attendants[i] + '</li>');
+	$('.slot').append('<li class="text-uppercase">' + attendants[i] + '</li>');
     }
 
     $('.slot').jSlots({
