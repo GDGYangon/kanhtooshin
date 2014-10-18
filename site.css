@@ -93,11 +93,21 @@ body {
     border: 1px solid #CCC;
 }
 .slot-box .slot li {
+    min-width: 200px;
     line-height: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;  /* Important */
     font-weight: bold;
     color: #E9573F;
     font-family: 'Luckiest Guy', cursive;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+
+.list-group-item-active {
+    z-index: 1;
+    margin-right: -5px;
+    margin-left: -5px;
+    color: #434A54;
+    font-weight: bold;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
 }
