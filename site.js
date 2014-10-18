@@ -7,8 +7,8 @@ function onSpinEnd(endarray) {
     console.debug("onSpinEnd = ", idx, winner);
 
     // Remove attendants
-    attendants.splice(idx, 1);
-    console.log(attendants);
+    //attendants.splice(idx, 1);
+    //console.log(attendants);
 
     // Add Winner
     $('.winner li').removeClass('list-group-item-active');
