@@ -1,8 +1,10 @@
+var winnerCount = 0;
 
 function onSpinEnd(endarray) {
     var idx = endarray[0] - 1;
     var elem = $('.slot li').eq(idx);
     var winner = attendants[idx];
+    winnerCount++;
 
     // Remove attendants
     console.log("idx = ", idx);
@@ -12,7 +14,8 @@ function onSpinEnd(endarray) {
 
     // Add Winner
     $('.winner li').removeClass('list-group-item-active');
-    var liItem = '<li class="text-center text-uppercase list-group-item list-group-item-active">' + winner + '</li>';
+    var liItem = '<li class="text-center text-uppercase list-group-item list-group-item-active">' +
+	    '<span class="badge badge-danger pull-left">' + winnerCount + '</span>' + winner + '</li>';
     $('.winner').append(liItem);
 
 }
