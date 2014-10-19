@@ -83,7 +83,7 @@ body {
 }
 
 .container {
-    width: 640px;
+    width: 1024px;
 }
 
 .slot-box .jSlots-wrapper {
@@ -93,10 +93,10 @@ body {
     border: 1px solid #CCC;
 }
 .slot-box .slot li {
-    min-width: 200px;
+    min-width: 300px;
     line-height: 50px;
     text-align: center;
-    font-size: 20px;  /* Important */
+    font-size: 27px;  /* Important */
     font-weight: bold;
     color: #E9573F;
     font-family: 'Luckiest Guy', cursive;
@@ -107,11 +107,15 @@ body {
     z-index: 1;
     margin-right: -5px;
     margin-left: -5px;
-    color: #434A54;
+    color: #99101F; /* #434A54; */
     font-weight: bold;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
 }
 
 .applause {
-    width: auto;
+    width: 90%;
+    display: block;
+    align: middle;
+    margin-left: auto;
+    margin-right: auto
 }
