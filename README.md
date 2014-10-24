@@ -26,4 +26,4 @@ When undefined result occur, refresh page and run the `undefindFix()` function f
 
 #### To get full list of winner
 
-Although we have mistakenly refresh page, all winner data are save in localStorage and they can be console out by running `getFullList()`
+Although we have mistakenly refresh page, all winner data are save in localStorage and they can be console out by running `getFullList()` and can restore them by `undefindFix()`
