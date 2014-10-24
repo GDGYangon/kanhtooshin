@@ -1,0 +1,159 @@
+/* Space out content a bit */
+body {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.container {
+    width: 1024px;
+}
+
+.list-group-item-active {
+    z-index: 1;
+    margin-right: -5px;
+    margin-left: -5px;
+    color: #99101F; /* #434A54; */
+    font-weight: bold;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+}
+
+.applause {
+    width: 90%;
+    display: block;
+    align: middle;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* Greenlikeorange add some more */
+.navbar-default .navbar-brand {
+  color: white;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.navbar-default .navbar-brand small {
+  font-size: 14px;
+  color: #e3e3e3;
+  font-weight: 400;
+}
+
+a.list-group-item-danger {
+  background-color: #da4453;
+  padding-top: 3px;
+  padding-bottom: 3px; 
+  color: white;
+}
+
+.roller-panel .panel-heading {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.roller-panel .slot-box {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.roller-panel .slot-box .jSlots-wrapper {
+    overflow: hidden;
+    height: 100px;
+    display: inline-block; /* to size correctly, can use float too, or width*/
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.roller-panel .slot-box .slot li {
+    width: 600px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 50px;  /* Important */
+    font-weight: bold;
+    color: #E9573F;
+    font-family: 'Luckiest Guy', cursive;
+    /*text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);*/
+}
+
+#gift-filter .gift-button {
+  font-size: 12px;
+}
+
+#gift-buttons .gift-button {
+  font-size: 2rem;
+  height: 100px;
+}
