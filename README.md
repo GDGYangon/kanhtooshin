@@ -17,8 +17,12 @@ This project used a modified version of [jSlot jquery plugin](https://github.com
 
 #### Undefined fix
 
-```undefinedFix()```
+```js
+undefinedFix()
+```
 
 #### To get full list of winner
 
-```getFullList()```
+```js
+getFullList()
+```
