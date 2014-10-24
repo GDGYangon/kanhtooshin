@@ -1,4 +1,7 @@
 var attendants = [
+    "Hnin Wint Thu Swe",
+    "Sandi Zan",
+    "Swe Zin Win",
     "Phyo Min Thu",
     "May Pearl Aung",
     "Ying Wit Mon Win",
@@ -16,7 +19,7 @@ var attendants = [
     "Hnin Myat Phyu",
     "Kyaw Naing Tun",
     "Thiha Tun",
-    "Wyne Phyu Cin",
+    "Wyne Phyu Cin (Ms)",
     "Thar Htet",
     "Khin Myo Hsae",
     "Win Htaik Aung",
@@ -50,4 +53,4 @@ var attendants = [
 
 var TOTAL_WINNERS = 10;
 var PLAY_TIME = 3000;
-var LOOP = 2;
+var LOOP = 1;
