@@ -11,3 +11,7 @@ Lucky Draw Winner Picker for GDG Events.
 ## Credits ##
 
 This project used a modified version of [jSlot jquery plugin](https://github.com/matthewlein/jQuery-jSlots/).
+
+To get full is of winner run the following in command
+
+```getFullList()```
