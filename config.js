@@ -52,5 +52,5 @@ var attendants = [
 ];
 
 var TOTAL_WINNERS = 10;
-var PLAY_TIME = 3000;
+var PLAY_TIME = 7000;
 var LOOP = 1;
