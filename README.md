@@ -15,14 +15,15 @@ This project used a modified version of [jSlot jquery plugin](https://github.com
 
 ## Tips
 
+#### Have to Clear localStorage
+
+First lunch of app, we should clear localStorage, to do that simply click 'Clear Storage' button on the right side of navbar
+
 #### Undefined fix
 
-```js
-undefinedFix()
-```
+When undefined result occur, refresh page and run the `undefindFix()` function form console
+
 
 #### To get full list of winner
 
-```js
-getFullList()
-```
+Although we have mistakenly refresh page, all winner data are save in localStorage and they can be console out by running `getFullList()`
