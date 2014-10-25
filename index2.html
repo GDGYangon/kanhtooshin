@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+  <head lang='my'>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Kan Htoo Shin - by GDG Yangon</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootflat.min.css">
+    <link rel="stylesheet" href="assets/css/site.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <link href="http://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand text-bold" href="#">ကံထူးရှင်  
+            <small>by GDG Yangon</small>
+          </a>
+        </div>
+        <div class="navbar-sectoin">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" id="clear-storage">Clear Storage</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row main-content">
+        <div class="col-md-4">
+          <ul class="winner list-group">
+            <a href="#" class="list-group-item text-center list-group-item-danger">
+              <h4>Winners</h4>
+            </a>
+            <div class="btn-group btn-group-justified" id="gift-filter">
+              <div class="btn-group">
+                <button class="btn btn-default gift-button" data-gift="-1">
+                  <span class="fa fa-filter"></span> CLEAN
+                </button>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="panel panel-primary roller-panel">
+                <div class="panel-heading">
+                  <div class="panel-title text-center">
+                    <h4>Attendants</h4>
+                  </div>
+                </div>
+                <div class="panel-body">
+                  <center>
+                    <div class="slot-box">
+                      <ul class="slot list-unstyled">
+                        <li>1</li>
+                      </ul>
+                    </div>
+                  </center>
+                  <!-- Gift Buttons are here! -->
+                  <div class="btn-group btn-group-justified" id="gift-buttons">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="show-winner" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              <span aria-hidden="true">&times;</span>
+              <span class="sr-only">Close</span>
+            </button>
+            <center>
+              <h2 class="modal-title text-center" id="myLargeModalLabel">
+                <span id="winner-name-atpp">Aung Aung</span>
+              </h2>
+              <h5>win</h5>
+              <h3 class="text-center" id="winner-icon-atpp">
+                <span class="fa fa-gift"></span>
+                Gift Name
+              </h3>
+            </center>
+          </div>
+          <div class="modal-body">
+            <img class="hidden applause img-responsive" src="images/applause1.gif" alt="applause"/>
+            <img class="hidden applause img-responsive" src="images/applause2.gif" alt="applause"/>
+            <img class="hidden applause img-responsive" src="images/applause3.gif" alt="applause"/>
+            <img class="hidden applause img-responsive" src="images/applause4.gif" alt="applause"/>
+            <!-- <img class="hidden applause img-responsive" src="images/applause5.gif" alt="applause"/> -->
+            <img class="hidden applause img-responsive" src="images/applause6.gif" alt="applause"/>
+            <img class="hidden applause img-responsive" src="images/applause7.gif" alt="applause"/>
+            <img class="hidden applause img-responsive" src="images/applause8.gif" alt="applause"/>
+            <img class="hidden applause img-responsive" src="images/applause9.gif" alt="applause"/>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/js/jquery.jSlots.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="config2.js"></script>
+    <script src="assets/site.js"></script>
+
+  </body>
+</html>
