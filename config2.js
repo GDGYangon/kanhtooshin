@@ -25,5 +25,5 @@ var attendants = [
   "Ye Myat Thu",
   "Thuya Myo Nyunt",
   "Arkar Aung",
-  "Arkar Min Aung",
+  "Arkar Min Aung"
 ];

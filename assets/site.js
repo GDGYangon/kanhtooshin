@@ -39,9 +39,15 @@ function onEnd(endarray) {
   _winnericon.innerHTML = "<span class="+currentGift.icon+"></spans>"+ currentGift.name;
   $('.applause').random().removeClass('hidden');
   $showWinner.modal('show');
+
 }
 
 function onStart(){
+  // Reload attendants list
+  $('.slot').empty();
+  for (var j = 0; j < attendants.length; j++) {
+    $('.slot').append('<li class="text-uppercase">' + attendants[j] + '</li>');
+  }
   $applause.addClass("hidden");
 }
 

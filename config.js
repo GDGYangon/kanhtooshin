@@ -1,6 +1,6 @@
-var TOTAL_WINNERS = 10;
+var TOTAL_WINNERS = 5;
 var PLAY_TIME = 7000;
-var LOOP = 1;
+var LOOP = 5;
 
 var GIFT_FILTER = true;
 
